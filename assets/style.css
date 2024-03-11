@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: .5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #db2626;
+  padding: 1%;
+}
+
+.item-1 {
+  background-color: aquamarine;
+  margin-left: 45px;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  text-align: right;
+}
+
+li {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+
+.underline {
+  text-decoration: underline white;
+}
+
+.subtitle {
+  background-color: aqua;
+  display: flex;
+}
+
+h2 {
+  text-align: right;
+}
