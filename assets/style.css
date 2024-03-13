@@ -62,21 +62,50 @@ a {
   max-height: auto;
  }
 
-.about-me {
+ .about-me, .my-work {
   display: flex;
  }
 
+ .my-info {
+  display: flex;
+ }
+
+.my-info a {
+  color: #db2626;
+  font-size: 25px;
+}
+ 
 aside {
   flex: 1; 
   padding: 10px;
+  text-align: right;
+  font-size: 50px;
+  font-weight: bolder;
+  overflow-wrap: normal;
 }
 
-.break {
-  width: 1px;
+.break-1, .break-2, .break-3 {
+  width: 5px;
   background-color: black;
-}
-
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
 .content {
   flex: 2;
   padding: 10px;
+}
+
+.content-2 {
+  flex: 2;
+  padding: 10px;
+}
+
+.link-list {
+  display: flex;text-align: ;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.link-list li {
+padding-top: 10%;
 }
