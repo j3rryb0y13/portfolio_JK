@@ -58,7 +58,7 @@ a {
  }
 
  .subtitle img {
-  max-width: 100%;
+  min-width: 100%;
  }
 
  .about-me, .my-work {
