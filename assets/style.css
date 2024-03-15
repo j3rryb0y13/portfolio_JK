@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
 }
 
+/* Styling for the header*/
 header {
   display: flex;
   align-items: center;
@@ -113,6 +114,7 @@ aside {
 padding-top: 10%;
 }
 
+/* Styling Main Image */
 .image-container {
   padding: 5px;
   margin-bottom: 10px;
@@ -145,6 +147,7 @@ padding-top: 10%;
   border-radius: 5px;
 }
 
+/* Grid Styling */
 .grid-container {
   max-width: 970px;
   display: grid;
@@ -187,6 +190,7 @@ padding-top: 10%;
   grid-area: d;
 }
 
+/* Media query for screens up to 1000px*/
 @media screen and (max-width: 1000px) {
   main,
   nav {
@@ -194,6 +198,7 @@ padding-top: 10%;
   }
 }
 
+/* Media query for screens up to 400px */
 @media screen and (max-width: 400px) {
   .grid-container, .content-2 {
       width: 50px;
