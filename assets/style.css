@@ -97,6 +97,7 @@ aside {
 }
 
 .content-2 {
+  position: relative;
   flex: 2;
   padding: 10px;
 }
