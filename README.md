@@ -5,7 +5,7 @@ I am starting to create a portfolio to help display the work I have created thro
 
 # Mock-Up
 
-![Shown view of finished webpage with updates](./assets/images/image.png)
+![Shown view of finished webpage with updates](./images/Challenge%20#2.mp4)
 
 
 # Deployed Application
